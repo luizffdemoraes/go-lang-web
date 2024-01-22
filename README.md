@@ -20,9 +20,33 @@ Servidor e struct de produtos
 
 * Em seguida criamos uma struct de Produto, onde instanciamos alguns produtos e exibimos de forma dinâmica em nossa index.html.
 
-### 🛠 Tecnologia
+<h2 align="center">
+Conectando com banco de dados
+</h2>
+
+Script utilizado para criação da tabela.:
+
+```sql
+create table produtos (
+	id serial primary key,
+	nome varchar,
+	descricao varchar,
+	preco decimal,
+	quantidade integer
+)
+```
+Script utilizado para inserção de itens na tabela produtos.:
+```sql 
+insert into produtos (nome, descricao, preco, quantidade) values 
+('Camiseta', 'Preta', 19, 10),
+('Fone', 'Muito Bom', 99, 5);
+
+```
+
+### 🛠 Tecnologias
 
 - [GoLang 1.20](https://go.dev/)
+- [PostgreSQL](https://www.postgresql.org/download/)
 
 
 ### 🛠  Ferramentas:
