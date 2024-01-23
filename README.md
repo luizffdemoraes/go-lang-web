@@ -24,6 +24,12 @@ Servidor e struct de produtos
 Conectando com banco de dados
 </h2>
 
+* Instalamos o Postgres para armazenar nossos produtos de forma segura;
+
+* Criamos uma função chamada conectaComBancoDeDados() para abrir a conexão com o banco de dados;
+
+* Alteramos nosso código para exibir os produtos que estão cadastrados lá no banco de dados.
+
 Script utilizado para criação da tabela.:
 
 ```sql
