@@ -49,6 +49,19 @@ insert into produtos (nome, descricao, preco, quantidade) values
 
 ```
 
+<h2 align="center">
+Refatoração e página de novos produtos
+</h2>
+
+* Modularizamos o código para tornar a manutenção e/ou atualização mais clara, criando as pastas controllers, db, models, routes e templates;
+
+* Criamos uma página para criar novos produtos e uma rota capaz de atender essa requisição http.HandleFunc("/new", controllers.New);
+
+* Buscamos os dados da página new com o código r.FormValue() para cada input (nome, descrição, preço e quantidade) no controller de produtos;
+
+* Salvamos o produto através do modelo de produto criando a função CriaNovoProduto().
+
+
 ### 🛠 Tecnologias
 
 - [GoLang 1.20](https://go.dev/)
