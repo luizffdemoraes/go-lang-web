@@ -61,6 +61,16 @@ Refatoração e página de novos produtos
 
 * Salvamos o produto através do modelo de produto criando a função CriaNovoProduto().
 
+<h2 align="center">
+Deletando produtos e partials
+</h2>
+
+* Criamos um botão na linha de cada produto que assim que clicado, deletava o produto do banco de dados;
+
+* Para melhorar a remoção dos produtos, criamos uma função em Javascript perguntando se queremos de fato, deletar o produto;
+
+* Removemos o código HTML duplicado da index e do arquivo new, criando as seguintes partials: _head.html e _menu.html.
+
 
 ### 🛠 Tecnologias
 
