@@ -71,6 +71,15 @@ Deletando produtos e partials
 
 * Removemos o código HTML duplicado da index e do arquivo new, criando as seguintes partials: _head.html e _menu.html.
 
+<h2 align="center">
+Atualizando e editando produtos
+</h2>
+
+* Criamos um botão na linha de cada produto que nos direciona para a tela de edição;
+
+* Após criar a tela de edição, preenchemos o formulário com as informações do produto exibindo os dados já cadastrados;
+
+* Atualizamos o produto, buscando os dados alterados na tela e executando o update(atualização) no banco de dados.
 
 ### 🛠 Tecnologias
 
